@@ -8,5 +8,5 @@ package go_say_hello
 
 // Add parameter string to SayHello function (major update)
 func SayHello(name string) string {
-	return "Hello World!"
+	return "Hello " + name
 }
